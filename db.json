@@ -1,0 +1,64 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Admin User",
+      "email": "admin@gmail.com",
+      "phone": "123456789",
+      "role": "admin",
+      "country": "srilanka",
+      "address": "Colombo",
+      "gender": "male",
+      "password": "admin"
+    },
+    {
+      "id": "antony",
+      "name": "Antony Thaas",
+      "email": "antony@gmail.com",
+      "phone": "123456789",
+      "role": "user",
+      "country": "srilanka",
+      "address": "Colombo",
+      "gender": "male",
+      "password": "antony"
+    },
+    {
+      "id": "pethu",
+      "name": "Pethurusan kumar",
+      "email": "pethu@gmail.com",
+      "phone": "123456789",
+      "role": "user",
+      "country": "srilanka",
+      "address": "Colombo",
+      "gender": "male",
+      "password": "pethu"
+    },
+    {
+      "id": "peter",
+      "name": "PeterRaja",
+      "email": "pethu@gmail.com",
+      "phone": "123456789",
+      "role": "user",
+      "country": "srilanka",
+      "address": "Colombo",
+      "gender": "male",
+      "password": "peter"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ]
+}
